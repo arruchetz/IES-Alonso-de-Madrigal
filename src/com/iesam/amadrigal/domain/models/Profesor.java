@@ -1,10 +1,8 @@
 package com.iesam.amadrigal.domain.models;
 
-import java.util.Date;
-
 public class Profesor extends Persona {
     private String tituloAcademico;
-    private Date fechaAlta;
+    private String fechaAlta;
 
     public String getTituloAcademico() {
         return tituloAcademico;
@@ -14,11 +12,11 @@ public class Profesor extends Persona {
         this.tituloAcademico = tituloAcademico;
     }
 
-    public Date getFechaAlta() {
+    public String getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(Date fechaAlta) {
+    public void setFechaAlta(String fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
 }
